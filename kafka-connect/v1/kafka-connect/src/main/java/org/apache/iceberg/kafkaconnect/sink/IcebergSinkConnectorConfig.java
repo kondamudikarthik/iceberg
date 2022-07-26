@@ -36,6 +36,7 @@ import org.apache.kafka.common.config.ConfigDef.Importance;
 import org.apache.kafka.common.config.ConfigDef.Type;
 
 public class IcebergSinkConnectorConfig extends AbstractConfig {
+
     public static final String ICEBERG_NAMESPACE_CONFIG = "iceberg.namespace";
     public static final String ICEBERG_NAMESPACE_CONFIG_DOC = "iceberg.namespace";
     public static final String ICEBERG_TABLE_CONFIG = "iceberg.table";
